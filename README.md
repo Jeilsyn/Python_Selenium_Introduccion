@@ -30,4 +30,4 @@ Este proyecto te guiará a través de la automatización de pruebas utilizando S
 1. **Clonar el repositorio:**
 
 ```bash
-
+git clone https://github.com/Jeilsyn/Python_Selenium_Introduccion.git
