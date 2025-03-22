@@ -1,0 +1,50 @@
+Firefox browser ------> Firefox()
+Chrome Browser -------> Chrome()
+Edge -----------------> Edge()
+
+1)
+Drivers for browsers (downloads)are available at the  below links
+
+Chrome:https://chromedriver.chromium.org/downloads
+
+Edge:https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+
+Firefox:https://github.com/mozilla/geckodriver/releases
+
+
+
+ Check My versión of Chrome 
+
+134.0.6998.89
+
+2)put the extracted files into  a folder in your disk, which could be named 'Drivers'. This way, you will have all the drivers in the same place.
+
+3)set up selenium webdriver
+	1)Pycharm ---> projects setting
+	2)pip install selenium
+
+
+Test Case
+-----------------------------------------
+
+1) Open Web Browser(Chrome/firefox/IE).
+2) Open URL https://admin-demo.nopcommerce.com/login
+3) Provide Email (admin@yourstore.com).
+4) Provide password (admin).
+5) Click on Login.
+6) Capture title of the dashboard page.(Actual title)
+7) Verify title of the page: "Dashboard / nopCommerce administration" (Expected)
+8) close browser
+
+
+!Note
+
+webdriver is a module which is available in selenium package.
+We need to import from selenium package
+
+
+import undetected_chromedriver as uc #No  detecta el selenium  pip install undetected-chromedriver
+
+
+El propósito de usar undetected-chromedriver es evitar que las páginas web detecten que estás utilizando Selenium o un driver de automatización, lo que generalmente se hace para prevenir que los bots interactúen con su contenido
+
